@@ -6,7 +6,7 @@ IFS=$'\n\t'
 main() {
   if [ ! -d venv ]
   then
-    mkdir -v venv
+    virtualenv venv
   fi
 
   set +u

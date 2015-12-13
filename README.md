@@ -4,6 +4,11 @@ Illustrates how to template Ansible-style YAML files that only contain variables
 
 Accompanying blog post: http://blog.pangyanhan.com/posts/2015-12-12-how-to-template-ansible-style-yaml-files-that-only-contain-variables.html
 
+## System Requirements
+
+- python 2.7.x
+- virtualenv
+
 ## Setup
 
     ./setup.sh
