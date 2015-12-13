@@ -1,0 +1,2 @@
+db: macey
+books: "{{ my_home }}/books"

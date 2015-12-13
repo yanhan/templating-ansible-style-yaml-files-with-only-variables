@@ -1,0 +1,16 @@
+home_dir: /home/ubuntu
+home_bin_dir: "{{ home_dir }}/bin"
+march: x86_64
+docs_dir: "{{ home_dir }}/docs"
+start_everything: "{{ home_bin_dir }}/start-everything"
+secret_doc: "{{ docs_dir }}/secret.txt"
+my_user: jake
+my_home: "/home/{{ my_user }}"
+destination: "{{ my_home }}/python2.7"
+language: english
+translation_file: "{{ my_home }}/dictionary/{{ language }}.txt"
+sisters_user: jane
+affected_users:
+  - "{{ my_user }}"
+  - ubuntu
+  - "{{ sisters_user }}"
